@@ -60,7 +60,7 @@ body{
 
 .header {
     height: 60vh !important;
-    background: url(/img/header.jpg) no-repeat center;
+    background: url(../img/header.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -163,7 +163,7 @@ p {
 }
 
 .price {
-    background: url(/img/costos.jpg) no-repeat center;
+    background: url(../img/costos.jpg) no-repeat center;
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
