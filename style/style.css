@@ -36,6 +36,13 @@ body{
     display: flex;
     margin-right: 10px;
 }
+.navbar-btn{
+    text-decoration: none;
+    border: var(--off-white) solid ;
+    padding: 0.4em;
+    color: var(--off-white);
+}
+
 
 .logo {
     margin-left: 30px;
@@ -58,7 +65,9 @@ body{
 }
 
 .navbar a:hover {
-    background: #444444;
+    background: #1f1d1d;
+    border: none;
+    
 }
 
 .header {
@@ -113,7 +122,7 @@ p {
 
 
 .content {
-    height: 50vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
