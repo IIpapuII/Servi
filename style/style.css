@@ -184,7 +184,9 @@ p {
     background: var(--black-secundary);
     padding-bottom: 0;
 }
-
+.ImgControl{
+    transform: rotate(90deg);
+}
 
 @media (max-width: 768px) {
 
