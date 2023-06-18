@@ -1,9 +1,19 @@
+:root{
+    --conten-color:#440099;
+    --content-color-secundary: #FF6A13;
+    --off-white:#FAF8F7;
+    --soft-blue:#E7F5FF;
+    --secondary-blue:#1A9AF7;
+    --black-secundary:#171717;
+}
+
 *{
     margin: 0;
     padding: 0;
     border: 0;
     font-size: 100%;
     vertical-align: baseline;
+    box-sizing: border-box;
 }
 
 body{
@@ -16,7 +26,7 @@ body{
     align-items: center;
     justify-content: space-between;
     height: 63px;
-    background: #171717;
+    background: var(--content-color-secundary);
     position: fixed;
     width: 100%;
     z-index: 100;
@@ -69,13 +79,13 @@ body{
     font-size: 60px;
     font-weight: 600;
     text-transform: uppercase;
-    color: #fff;
+    color: var(--off-white);
 }
 
 p {
     margin-bottom: 40px;
     font-size: 18px;
-    color: #fff;
+    color: var(--off-white);
     padding: 0 100px;
 }
 
@@ -83,10 +93,10 @@ p {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 40px;
-    border: 2px solid #9c27b0;
-    color:#fff;
+    border: 2px solid var(--content-color-secundary);
+    color:var(--off-white);
     text-decoration: none;
-    background: #9c27b0;
+    background: var(--content-color-secundary);
 }
 
 .btn:hover {
@@ -140,15 +150,15 @@ p {
     line-height: 3rem;
     text-align: center;
     border-radius: 50%;
-    color: #fff;
-    background: #9c27b0;
+    color: var(--off-white);
+    background: var(--content-color-secundary);
     font-size: 2rem;
     margin: 1rem 0;
 }
 
 .box-container .box h3 {
     font-size: 20px;
-    color: #9c27b0;
+    color: var(--content-color-secundary);
 
 }
 
@@ -159,7 +169,7 @@ p {
 }
 
 .about {
-    background: #171717;
+    background: var(--black-secundary);
 }
 
 .price {
@@ -171,7 +181,7 @@ p {
 
 .contact {
     padding-top: 20px;
-    background: #171717;
+    background: var(--black-secundary);
     padding-bottom: 0;
 }
 
