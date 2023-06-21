@@ -1,13 +1,14 @@
-:root{
-    --conten-color:#440099;
-    --content-color-secundary: #FF6A13;
-    --off-white:#FAF8F7;
-    --soft-blue:#E7F5FF;
-    --secondary-blue:#1A9AF7;
-    --black-secundary:#171717;
+:root {
+    --conten-color: #440099;
+    --content-color-secundary: #101436;
+    --off-white: #FAF8F7;
+    --soft-blue: #E7F5FF;
+    --secondary-blue: #1A9AF7;
+    --black-secundary: #171717;
+    --orange-primary: #e25c0e;  
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
@@ -16,7 +17,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     text-align: center;
     font-family: sans-serif;
 }
@@ -26,7 +27,7 @@ body{
     align-items: center;
     justify-content: space-between;
     height: 63px;
-    background: var(--content-color-secundary);
+    background: var(--off-white);
     position: fixed;
     width: 100%;
     z-index: 100;
@@ -36,11 +37,12 @@ body{
     display: flex;
     margin-right: 10px;
 }
-.navbar-btn{
+
+.navbar-btn {
     text-decoration: none;
-    border: var(--off-white) solid ;
-    padding: 0.4em;
-    color: var(--off-white);
+    border: var(--content-color-secundary) solid;
+    padding: 0.3em;
+    color: var(--content-color-secundary);
 }
 
 
@@ -50,15 +52,15 @@ body{
 
 .logo a {
     text-decoration: none;
-    color: #fff;
+    color: var(--off-white);
     text-transform: uppercase;
     font-size: 20px;
 }
 
-.navbar  {
+.navbar {
     display: block;
     padding: 20px 20px;
-    color:#fff;
+    color: var(--off-white);
     text-decoration: none;
     text-transform: uppercase;
     font-size: 20px;
@@ -66,8 +68,9 @@ body{
 
 .navbar a:hover {
     background: #1f1d1d;
+    color: var(--off-white);
     border: none;
-    
+
 }
 
 .header {
@@ -102,11 +105,12 @@ p {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 40px;
-    border: 2px solid var(--content-color-secundary);
-    color:var(--off-white);
+    border: 2px solid var(--orange-primary);
+    color: var(--off-white);
     text-decoration: none;
-    background: var(--content-color-secundary);
+    background: var(--orange-primary);
 }
+
 
 .btn:hover {
     background: none;
@@ -117,7 +121,7 @@ p {
 }
 
 .btn-home a {
-       margin: 0 10px;
+    margin: 0 10px;
 }
 
 
@@ -128,12 +132,14 @@ p {
     justify-content: center;
     align-items: center;
 }
-.about title{
+
+.about title {
     margin-top: 10px;
 }
+
 .sau {
     padding: 30px;
-    background: #1f1d1d;
+    background: var(--content-color-secundary);
 }
 
 .box-container {
@@ -146,11 +152,11 @@ p {
 .box-container .box {
     height: 11rem;
     width: 17rem;
-    background: #101010;
+    background: var(--orange-primary);
     text-align: center;
     border-radius: 1rem;
-    box-shadow: 0 .3rem 5rem #0a0a0a(0, 0, 0, .5);
-    margin: 2rem; 
+    box-shadow: 0 .3rem 5rem var(--off-white)(0, 0, 0, .5);
+    margin: 2rem;
 }
 
 .box-container .box i {
@@ -178,7 +184,7 @@ p {
 }
 
 .about {
-    background: var(--black-secundary);
+    background: var(--content-color-secundary);
 }
 
 .price {
@@ -190,10 +196,11 @@ p {
 
 .contact {
     padding-top: 20px;
-    background: var(--black-secundary);
+    background: var(--content-color-secundary);
     padding-bottom: 0;
 }
-.ImgControl{
+
+.ImgControl {
     transform: rotate(90deg);
 }
 
