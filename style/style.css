@@ -55,6 +55,7 @@ body {
     color: var(--off-white);
     text-transform: uppercase;
     font-size: 20px;
+    margin: 10px;
 }
 
 .navbar {
@@ -202,6 +203,19 @@ p {
 
 .ImgControl {
     transform: rotate(90deg);
+}
+.box p {
+    margin: 0%;
+}
+.box a {
+    color: var(--off-white);
+    text-decoration: none;
+}
+.box a span{
+    font-size: 2.5em;
+}
+.conter footer{
+    margin-top: 10px;
 }
 
 @media (max-width: 768px) {
